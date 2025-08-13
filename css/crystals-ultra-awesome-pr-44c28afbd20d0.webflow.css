@@ -670,10 +670,16 @@
   display: inline-block;
 }
 
+.video-90.center {
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+}
+
 .bg-vid-760 {
   width: 100%;
+  max-width: 760px;
   display: block;
-  overflow: visible;
 }
 
 .wrapper-social-menu {
@@ -897,21 +903,21 @@
   background-image: url('../images/call-chat-web-mobile-thumbnail.png');
   background-position: 50%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .image-banner.email-web-app-thumbnail {
   background-image: url('../images/email-app-thumbnail.png');
   background-position: 50%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .image-banner.omnichannel-desktop-app-thumbnail {
   background-image: url('../images/omnichannel-desktop-thumbnail.png');
   background-position: 50%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .image-banner.weconnectme-thumbnail {
@@ -1042,6 +1048,15 @@
 
 .gif.widht-300 {
   width: 300px;
+}
+
+.wrapper-video {
+  margin-right: var(--_spacing---10vw);
+  margin-left: var(--_spacing---10vw);
+  flex-flow: row;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
 }
 
 @media screen and (min-width: 1920px) {
@@ -1490,6 +1505,11 @@
   .wrapper-centered.top-padding.color-light-grey {
     padding-top: var(--_spacing---40);
   }
+
+  .wrapper-video {
+    margin-right: var(--_spacing---5vw);
+    margin-left: var(--_spacing---5vw);
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1588,6 +1608,11 @@
     display: flex;
   }
 
+  .project-section.top-padding.bottom-padding {
+    justify-content: flex-start;
+    align-items: center;
+  }
+
   .menu-button {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -1642,8 +1667,8 @@
   }
 
   .bg-vid-760 {
-    width: 290px;
-    height: 190px;
+    width: 280px;
+    height: 183px;
   }
 
   .wrapper-social-menu {
