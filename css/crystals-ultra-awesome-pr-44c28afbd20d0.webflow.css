@@ -782,6 +782,10 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.capabilities-grid._3-up.top-padding-40.bottom-padding {
+  padding-bottom: var(--_spacing---40);
+}
+
 .capabilities-grid.top-padding-40 {
   padding-top: var(--_spacing---40);
 }
@@ -856,6 +860,10 @@
   justify-content: center;
   align-items: flex-start;
   display: block;
+}
+
+.image-section.remove-padding {
+  padding-bottom: var(--_spacing---0);
 }
 
 .wrapper-project-headline {
