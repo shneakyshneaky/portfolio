@@ -271,18 +271,22 @@
 }
 
 .wrapper-small-cta:hover {
-  background-color: var(--darkest-purple-grey);
+  background-color: var(--blue-violet);
   transform: skew(-25deg);
 }
 
 .small-cta-button {
   font-family: var(--_type---titles);
-  color: var(--light-purple);
+  color: var(--mint-cream);
   font-size: var(--_type---h4);
   letter-spacing: 2px;
   margin-bottom: 0;
   font-weight: 300;
   line-height: 1em;
+}
+
+.small-cta-button:hover {
+  color: var(--mint-cream);
 }
 
 .wrapper-cta {
