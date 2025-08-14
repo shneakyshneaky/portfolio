@@ -1492,6 +1492,11 @@
     grid-template-columns: 1fr;
   }
 
+  .capabilities-grid.top-padding-40 {
+    grid-column-gap: var(--_spacing---40);
+    grid-row-gap: var(--_spacing---40);
+  }
+
   .resume-card {
     margin-bottom: 40px;
   }
@@ -1727,6 +1732,11 @@
 
   .capabilities-grid {
     padding-top: var(--_spacing---40);
+    grid-column-gap: var(--_spacing---40);
+    grid-row-gap: var(--_spacing---40);
+  }
+
+  .capabilities-grid.top-padding-40 {
     grid-column-gap: var(--_spacing---40);
     grid-row-gap: var(--_spacing---40);
   }
