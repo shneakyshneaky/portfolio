@@ -1,0 +1,276 @@
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Wed Aug 27 2025 21:51:18 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="68969cf8fd2ed92741a36687" data-wf-site="6894c2361cbad72f0702e8cf">
+<head>
+  <meta charset="utf-8">
+  <title>Chat Messaging and Voice Apps</title>
+  <meta content="Chat Messaging and Voice Apps" property="og:title">
+  <meta content="Chat Messaging and Voice Apps" property="twitter:title">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="../css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="../css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="../css/crystals-ultra-awesome-pr-44c28afbd20d0.webflow.css" rel="stylesheet" type="text/css">
+  <style>@media (min-width:992px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="9d7bb9ed-20ae-205b-5ceb-a3e3c8bb0af1"] {opacity:0;-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(6DEG, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(6DEG, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(6DEG, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(6DEG, 0);filter: blur(6px);}html.w-mod-js:not(.w-mod-ix) [data-w-id="9c7ac425-63fa-d2d8-588f-2588d3bb602f"] {-webkit-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="9d7bb9ed-20ae-205b-5ceb-a3e3c8bb0af3"] {filter: blur(6px);opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="ea47b032-b909-b520-18cd-4d33fe6a476b"] {opacity:0;-webkit-transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="418aeedf-733b-86a8-ede2-1d0de19cc7a7"] {opacity:0;-webkit-transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="ff22e87b-f8c1-6a1e-1218-f45611a0987c"] {opacity:0;-webkit-transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}}@media (max-width:991px) and (min-width:768px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="9d7bb9ed-20ae-205b-5ceb-a3e3c8bb0af1"] {opacity:0;-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(6DEG, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(6DEG, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(6DEG, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(6DEG, 0);filter: blur(6px);}html.w-mod-js:not(.w-mod-ix) [data-w-id="9c7ac425-63fa-d2d8-588f-2588d3bb602f"] {-webkit-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="9d7bb9ed-20ae-205b-5ceb-a3e3c8bb0af3"] {filter: blur(6px);opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="ea47b032-b909-b520-18cd-4d33fe6a476b"] {opacity:0;-webkit-transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="418aeedf-733b-86a8-ede2-1d0de19cc7a7"] {opacity:0;-webkit-transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="ff22e87b-f8c1-6a1e-1218-f45611a0987c"] {opacity:0;-webkit-transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 57PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}}</style>
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Ubuntu Mono:regular,italic,700,700italic","Manrope:200,300,regular,500,600,700,800"]  }});</script>
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="../images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../images/webclip.png" rel="apple-touch-icon">
+</head>
+<body class="body-white">
+  <section id="top" class="top"></section>
+  <div data-collapse="medium" data-animation="over-right" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
+    <div class="nav-bar w-container">
+      <div class="wrapper-logo">
+        <a href="../index.html" class="logo-name">Crystal Pham</a>
+      </div>
+      <nav role="navigation" class="wrapper-nav-links w-nav-menu">
+        <div class="wrapper-close-button">
+          <a href="#" class="close-button w-inline-block"><img src="../images/close.svg" alt="" class="icon-25"></a>
+        </div>
+        <a href="../index.html" class="nav-link">Projects</a>
+        <a href="../info.html" class="nav-link">Info</a>
+        <div class="wrapper-social-menu">
+          <a href="https://www.linkedin.com/in/crystal-pham/" target="_blank" class="social-linkedin w-inline-block"></a>
+          <a href="https://dribbble.com/crystalpham" target="_blank" class="social-dribbble w-inline-block"></a>
+          <a href="https://codepen.io/shneakyshneaky/" target="_blank" class="social-codepen w-inline-block"></a>
+          <a href="https://github.com/shneakyshneaky" target="_blank" class="social-github w-inline-block"></a>
+        </div>
+      </nav>
+      <div class="wrapper-menu-button">
+        <div class="menu-button w-nav-button"><img src="../images/menu.svg" alt="" class="icon-menu"></div>
+      </div>
+    </div>
+  </div>
+  <div class="banner-project">
+    <div class="wrapper-banner-project">
+      <div class="wrapper-title">
+        <h1 data-w-id="9d7bb9ed-20ae-205b-5ceb-a3e3c8bb0af1" class="header-2 color-light">Chat Messaging and Voice Web Apps</h1>
+        <p data-w-id="9d7bb9ed-20ae-205b-5ceb-a3e3c8bb0af3" class="small-copy">CCaaS B2B Software for CX</p>
+      </div>
+      <div data-w-id="9c7ac425-63fa-d2d8-588f-2588d3bb602f" class="image-banner call-chat-web-app"></div>
+    </div>
+  </div>
+  <div data-w-id="ea47b032-b909-b520-18cd-4d33fe6a476b" class="copy-2-up-meta">
+    <div class="wrapper-copy">
+      <h1 class="small-label color-dark">Role</h1>
+      <p class="body-copy small">Design system<br>UX/UI<br></p>
+      <h1 class="small-label color-dark">Client</h1>
+      <p class="body-copy small">Contact Center services startup</p>
+      <h1 class="small-label color-dark">Team</h1>
+      <p class="body-copy small">Crystal, Emma, Oliver</p>
+    </div>
+    <div class="wrapper-copy-full">
+      <h1 class="header-3">Overview</h1>
+      <p class="body-copy">As part of a major modernization initiative, we rebuilt a suite of products supporting customer service agents in the Contact Center ecosystem. The core channels of communication were Voice and Chat channels, both powered by AI tools designed to improve agent performance. However, these platforms were originally built over seven years ago and had grown outdated.<br></p>
+      <p class="body-copy">This realization led to a company-wide effort to refresh the product suite and tech stack, with the goal of improving the user experience and establishing a scalable enterprise-level design system.</p>
+    </div>
+  </div>
+  <div data-w-id="418aeedf-733b-86a8-ede2-1d0de19cc7a7" class="image-section"><img src="../images/call-chat-mockup.png" sizes="(max-width: 4292px) 100vw, 4292px" srcset="../images/call-chat-mockup-p-500.png 500w, ../images/call-chat-mockup-p-800.png 800w, ../images/call-chat-mockup-p-1080.png 1080w, ../images/call-chat-mockup-p-1600.png 1600w, ../images/call-chat-mockup-p-2000.png 2000w, ../images/call-chat-mockup-p-2600.png 2600w, ../images/call-chat-mockup.png 4292w" alt="" class="image-90"></div>
+  <div class="project-section">
+    <div class="div-block-6"></div>
+    <div class="wrapper-centered top-padding">
+      <div class="wrapper-project-copy">
+        <h1 class="header-2">Chat Messaging Web App</h1>
+        <div class="wrapper-project-body-copy">
+          <p class="body-copy">The legacy Chat platform had been extended with features over time, but without a cohesive strategy. This resulted in a cluttered, inefficient interface that made agent workflows slow and frustrating. It became clear that a full rethinking was necessary, not just a visual update but a structural one focused on unifying features and improving scalability for future enhancements. This was the first project I managed end-to-end as the design lead.</p>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper-centered color-light-grey top-padding bottom-padding">
+      <div class="wrapper-copy-full">
+        <h1 class="header-3">Discovery</h1>
+        <div class="wrapper-project-body-copy">
+          <p class="body-copy">This was my first project as the lead with minimal supervision. Due to budget and time constraints, I could not perform a full discovery and research process. The product manager handled general discovery and shared their insights with me. In a personal effort to understand the users, I created a user persona from existing knowledge and shared insights.</p>
+        </div>
+      </div>
+      <div class="wrapper-image-full top-padding bottom-padding"><img src="../images/chat-call-app-agent-persona.svg" alt="" class="image"></div>
+      <div class="wrapper-copy-full">
+        <div class="wrapper-project-body-copy">
+          <p class="body-copy">Along with internal insight, users were providing feedback on the old design via  <a href="https://www.g2.com" class="inline-link color-dark">G2</a>, a B2B software and services review platform. </p>
+        </div>
+      </div>
+      <div class="wrapper-quote padding-24">
+        <div class="capabilities-card">
+          <p class="quote color-dark">&quot;The current UI design appears to be rather basic and requires a redesign to enhance aesthetics and usability.&quot;</p>
+          <p class="body-copy">- User in Enterprise (7/21/2023)</p>
+        </div>
+        <div class="capabilities-card">
+          <p class="quote color-dark">&quot;The UI design is kinda basic and needs a bit of new design, also if it can get a little bit more optimization for mobile and iOS devices will be nice along with an app control.&quot;</p>
+          <p class="body-copy">- Technical Support (8/29/2022)</p>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper-centered top-padding bottom-padding">
+      <div class="wrapper-copy-full">
+        <h1 class="header-3">Research</h1>
+        <div class="wrapper-project-body-copy">
+          <p class="body-copy">In order to redesign a product, I needed to understand all of its features and capabilities. I analyzed the existing user flows on the live product. Then I had conversations with product managers and engineers to get a deeper understanding of behaviors and the why they made these decisions.</p>
+          <p class="body-copy">Since I didn&#x27;t have experience designing a full chat messaging app, I performed an indirect competitive audit of other communication apps with chat messaging. I attempted to perform a direct competitive audit but couldn&#x27;t access those products with my limited capabilities. I researched apps like Slack, Discord, Jira, iOS, Android, Whatsapp, Viber, Telegram, Meta, and Google. I took note and captured behaviors to find common patterns between the communication apps. This also helped me keep updated on trends to modernize the product.</p>
+        </div>
+      </div>
+      <div class="wrapper-image-full top-padding"><img src="../images/chat-call-research.png" sizes="(max-width: 2028px) 100vw, 2028px" srcset="../images/chat-call-research-p-500.png 500w, ../images/chat-call-research-p-800.png 800w, ../images/chat-call-research-p-1080.png 1080w, ../images/chat-call-research.png 2028w" alt="" class="image-90"></div>
+    </div>
+    <div class="wrapper-centered color-light-grey top-padding bottom-padding">
+      <div class="wrapper-copy-full">
+        <h1 class="header-3">Objective</h1>
+        <div class="wrapper-project-body-copy">
+          <p class="body-copy">Redesign the Chat experience and structure that prioritizes agent efficiency to easily navigate between chats and interact with customers.</p>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper-centered top-padding bottom-padding">
+      <div class="wrapper-copy-full">
+        <h1 class="header-3">Challenges</h1>
+        <div class="capabilities-grid top-padding-40">
+          <div class="capabilities-card color-dark">
+            <h1 class="header-5 color-dark">Tool overload</h1>
+            <p class="body-copy">A fast-paced environment pushed a need a for all essential tools to be immediately accessible. Agents had difficulty finding the right tools efficiently. This posed a question on how to balance availability and maintaining a clean interface.</p>
+          </div>
+          <div class="capabilities-card color-dark">
+            <h1 class="header-5 color-dark">Scalability</h1>
+            <p class="body-copy">With a tool overload already in place, I needed to accommodate new features. The design needed to be scalable for ongoing growth without overwhelming users.</p>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper-image-full top-padding"><img src="../images/chat-app-screens-old.png" sizes="(max-width: 3292px) 100vw, 3292px" srcset="../images/chat-app-screens-old-p-500.png 500w, ../images/chat-app-screens-old-p-800.png 800w, ../images/chat-app-screens-old-p-1080.png 1080w, ../images/chat-app-screens-old-p-1600.png 1600w, ../images/chat-app-screens-old-p-2000.png 2000w, ../images/chat-app-screens-old.png 3292w" alt="" class="image-90">
+        <p class="caption">The current chat app design</p>
+      </div>
+    </div>
+    <div class="wrapper-centered color-light-grey top-padding bottom-padding">
+      <div class="wrapper-copy-full">
+        <h1 class="header-3">Solution</h1>
+        <p class="body-copy">Closely collaborating with the Product Manager, I questioned which features were most frequently used and prioritized by agents (the primary users). We identified these features and reserved their placement in the newly introduced in-chat toolbar. Previously these actions were located in the chat side navigation and were hidden under a menu. I believed this made it easier for agents to quickly find and initiate actions.<br><br>Another major improvement was restructuring the navigation to only use it as a navigational tool and provide real-time data (response timer) on chat sessions. Relocating essential actions provided ample room for future enhancements and simplified the chat workflow. Many chats won&#x27;t have a customer&#x27;s name attached to the session and it may only say &quot;Chat User 21.&quot; To help distinguish chat sessions, I introduced a channel type icon to make it easier to locate chats at a glance.</p>
+      </div>
+      <div class="wrapper-image-full top-padding"><img src="../images/chat-app-screens-new.png" sizes="(max-width: 3296px) 100vw, 3296px" srcset="../images/46fc3e152e277ab08d6bdf0c324cad6a_chat-app-screens-new-p-500.png 500w, ../images/46fc3e152e277ab08d6bdf0c324cad6a_chat-app-screens-new-p-800.png 800w, ../images/46fc3e152e277ab08d6bdf0c324cad6a_chat-app-screens-new-p-1080.png 1080w, ../images/46fc3e152e277ab08d6bdf0c324cad6a_chat-app-screens-new-p-1600.png 1600w, ../images/46fc3e152e277ab08d6bdf0c324cad6a_chat-app-screens-new-p-2000.png 2000w, ../images/chat-app-screens-new.png 3296w" alt="" class="image-90"></div>
+    </div>
+    <div class="wrapper-centered top-padding bottom-padding">
+      <div class="wrapper-copy-full">
+        <h1 class="header-3">Feature Highlight: Improved Chat Input</h1>
+        <div class="body-copy w-richtext">
+          <p>Two major enhancements were introduced:</p>
+          <ul role="list">
+            <li><strong>Text Formatting</strong> - allowed agents to clearly structure responses and emphasize key information<br></li>
+            <li><strong>File Attachments</strong> - enabled agents to share documents, images, and reference materials directly within the conversation</li>
+          </ul>
+          <p>Foreseeing future growth, I realized the current chat input wouldn&#x27;t properly support these enhancements. To support these changes, I redesigned the Chat Input UI and introduced a secondary toolbar. This allowed us to add features without crowding the main input area, maintaining a clean interface while preparing for future expansion. These updates were implemented across both the Web and Mobile apps, ensuring a consistent experience across platforms.</p>
+        </div>
+      </div>
+      <div class="wrapper-image-full top-padding"><img src="../images/chat-input-iterations.png" sizes="(max-width: 2184px) 100vw, 2184px" srcset="../images/chat-input-iterations-p-500.png 500w, ../images/chat-input-iterations-p-800.png 800w, ../images/chat-input-iterations-p-1080.png 1080w, ../images/chat-input-iterations.png 2184w" alt="" class="image-90"></div>
+    </div>
+  </div>
+  <div class="project-section">
+    <div class="div-block-6"></div>
+    <div class="wrapper-centered top-padding bottom-padding">
+      <div class="wrapper-copy-full">
+        <h1 class="header-2">Voice/IVR Call Web App</h1>
+        <div class="wrapper-project-body-copy">
+          <p class="body-copy">The Voice/IVR system is the most feature-rich and complex product in the suite. It also required a redesign and UX improvements. While my UI Director led this project, I contributed to design system implementation and maintained consistency with the rest of the platform ecosystem.</p>
+        </div>
+      </div>
+      <div class="wrapper-image-full top-padding"><img src="../images/call-app-screens-old.png" sizes="(max-width: 3828px) 100vw, 3828px" srcset="../images/call-app-screens-old-p-500.png 500w, ../images/call-app-screens-old-p-800.png 800w, ../images/call-app-screens-old-p-1080.png 1080w, ../images/call-app-screens-old-p-1600.png 1600w, ../images/call-app-screens-old-p-2000.png 2000w, ../images/call-app-screens-old-p-2600.png 2600w, ../images/call-app-screens-old.png 3828w" alt="" class="image-90">
+        <p class="caption">The current call app design</p>
+      </div>
+    </div>
+    <div class="wrapper-centered color-light-grey top-padding bottom-padding">
+      <div class="wrapper-copy-full">
+        <h1 class="header-3">Contribution highlights</h1>
+        <p class="body-copy">I supported the integration of the new design system governance into the voice/call app and aligned key interaction patterns and visual language from our mobile app to ensure consistency across features. With ongoing feature enhancement, I led a few key projects to continue improving the Voice/Call app.<br></p>
+      </div>
+      <div class="wrapper-image-full top-padding"><img src="../images/call-app-screens.png" sizes="(max-width: 4292px) 100vw, 4292px" srcset="../images/e083c04d2e8ac9d743abed2240c463b6_call-app-screens-p-500.png 500w, ../images/e083c04d2e8ac9d743abed2240c463b6_call-app-screens-p-800.png 800w, ../images/e083c04d2e8ac9d743abed2240c463b6_call-app-screens-p-1080.png 1080w, ../images/e083c04d2e8ac9d743abed2240c463b6_call-app-screens-p-1600.png 1600w, ../images/e083c04d2e8ac9d743abed2240c463b6_call-app-screens-p-2000.png 2000w, ../images/e083c04d2e8ac9d743abed2240c463b6_call-app-screens-p-2600.png 2600w, ../images/e083c04d2e8ac9d743abed2240c463b6_call-app-screens-p-3200.png 3200w, ../images/call-app-screens.png 4292w" alt="Key call screens" class="image-90"></div>
+    </div>
+    <div class="wrapper-centered top-padding bottom-padding">
+      <div class="wrapper-copy-full">
+        <h1 class="header-3">Feature Highlight: Outbound Dialer Improvements</h1>
+        <p class="body-copy">A customer encountered issues when dialing international numbers without entering the country code. Calling would end with errors or it would automatically input the wrong country code from settings. To solve this, I introduced a country code selector that recognized and auto-filled country codes even when typed manually. This improved both flexibility and efficiency.</p>
+        <p class="body-copy">Additionally, I consolidated a two-step dialing flow into a single screen, simplifying the experience based on user feedback. While a dial pad was used by only a small number of agents, I added a toggle to show or hide it based on user preference. Admins were given the ability to set default behaviors for their teams, allowing for greater customization and control.</p>
+      </div>
+      <div class="wrapper-image-full top-padding"><img src="../images/outbound-call-iterations.png" sizes="(max-width: 2176px) 100vw, 2176px" srcset="../images/f0ef0776878cdbdbc28cfcad425087b3_outbound-call-iterations-p-500.png 500w, ../images/f0ef0776878cdbdbc28cfcad425087b3_outbound-call-iterations-p-800.png 800w, ../images/f0ef0776878cdbdbc28cfcad425087b3_outbound-call-iterations-p-1080.png 1080w, ../images/outbound-call-iterations.png 2176w" alt="" class="image-90"></div>
+    </div>
+  </div>
+  <div class="project-section color-light-grey">
+    <div class="wrapper-centered top-padding bottom-padding">
+      <div class="wrapper-copy-full">
+        <h1 class="header-4">Results and Impact</h1>
+        <p class="body-copy color-light">Due to the fast-paced startup environment, I don&#x27;t have numerical metrics for the impact of the chat and voice redesigns. However, I have pulled quotes from user reviews on <a href="https://www.g2.com" class="inline-link">G2</a>, a B2B software and services review platform. <br></p>
+      </div>
+      <div class="wrapper-image-full top-padding"><img src="../images/user-feedback-ai-overview.svg" alt="" class="image"></div>
+      <div class="wrapper-quote">
+        <div class="capabilities-card">
+          <p class="quote">&quot;I love how it&#x27;s easy to use. This gives me a light work. Especially during live chat and call. Amount of feautures is not overwhelming so it&#x27;s easy for me to use it and did not give me hard time using it. As customer support it&#x27;s important to have an easy tools for us to work efficiently.&quot;</p>
+          <p class="body-copy color-light">- Customer Service Representative (5/26/2024)</p>
+        </div>
+        <div class="capabilities-card">
+          <p class="quote">&quot;The platform’s modern, clean interface makes it easy for agents to navigate and manage customer interactions efficiently, reducing training time and improving productivity.&quot;</p>
+          <p class="body-copy color-light">- Verified User in Consumer Services (6/25/2025)</p>
+        </div>
+        <div class="capabilities-card">
+          <p class="quote">&quot;What I like the best about [...] still remain great. I was really amaze and impress on how this tool very ease to use and easy to navigate. It&#x27;s user-interface easy to understand even though the beginner whose using it is able to perform the job effectively.&quot;</p>
+          <p class="body-copy color-light">- Customer Service Advocate (2/1/2024)</p>
+        </div>
+        <div class="capabilities-card">
+          <p class="quote">&quot;Easy to use and navigation is user friendly. I&#x27;m getting used to it and it really helps a lot in evreything I do. As a contact support, I can handle and help resolve customer&#x27;s concern. I alwasy check and inspect all it&#x27;s features evrytime I use it.&quot;</p>
+          <p class="body-copy color-light">- Contact Support (7/26/2024)</p>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper-image-full"></div>
+  </div>
+  <div data-w-id="ff22e87b-f8c1-6a1e-1218-f45611a0987c">
+    <div class="div-block-6"></div>
+    <div class="projects-title interior">
+      <h1 class="header-3 center-text">See the design system and related projects</h1>
+    </div>
+    <div class="portfolio-3-up interior _4-up">
+      <a href="../projects/contact-center-design-system.html" class="project-card color-dark w-inline-block">
+        <div class="project-card-image"><img src="../images/design-system-thumbnail.png" sizes="(max-width: 3616px) 100vw, 3616px" srcset="../images/e6cecc8ab9dbb14ab860e7d0115e994f_design-system-thumbnail-p-500.png 500w, ../images/e6cecc8ab9dbb14ab860e7d0115e994f_design-system-thumbnail-p-800.png 800w, ../images/e6cecc8ab9dbb14ab860e7d0115e994f_design-system-thumbnail-p-1080.png 1080w, ../images/e6cecc8ab9dbb14ab860e7d0115e994f_design-system-thumbnail-p-1600.png 1600w, ../images/e6cecc8ab9dbb14ab860e7d0115e994f_design-system-thumbnail-p-2000.png 2000w, ../images/design-system-thumbnail.png 3616w" alt="Button component variants" class="image-100"></div>
+        <div class="project-card-copy">
+          <h1 class="header-5 color-dark">Omnichannel Design System</h1>
+          <p class="small-copy color-dark">An omnichannel and multi-platform design system for a CCaaS B2B startup</p>
+        </div>
+      </a>
+      <a href="../projects/agent-mobile-app.html" class="project-card color-dark w-inline-block">
+        <div class="project-card-image"><img src="../images/agent-mobile-thumbnail.png" sizes="(max-width: 3616px) 100vw, 3616px" srcset="../images/agent-mobile-thumbnail-p-500.png 500w, ../images/agent-mobile-thumbnail-p-800.png 800w, ../images/agent-mobile-thumbnail-p-1080.png 1080w, ../images/agent-mobile-thumbnail-p-1600.png 1600w, ../images/agent-mobile-thumbnail-p-2000.png 2000w, ../images/agent-mobile-thumbnail-p-2600.png 2600w, ../images/agent-mobile-thumbnail.png 3616w" alt="" class="image-100"></div>
+        <div class="project-card-copy">
+          <h1 class="header-5 color-dark">Agent Mobile App</h1>
+          <p class="small-copy color-dark">Product UX/UI of a multi-channel mobile app for a CCaaS B2B startup</p>
+        </div>
+      </a>
+      <a href="../projects/email-web-app.html" class="project-card color-dark w-inline-block">
+        <div class="project-card-image"><img src="../images/email-app-thumbnail.png" sizes="(max-width: 3616px) 100vw, 3616px" srcset="../images/0d6989ceb4a3b3575070d81eede0973e_email-app-thumbnail-p-500.png 500w, ../images/0d6989ceb4a3b3575070d81eede0973e_email-app-thumbnail-p-800.png 800w, ../images/0d6989ceb4a3b3575070d81eede0973e_email-app-thumbnail-p-1080.png 1080w, ../images/0d6989ceb4a3b3575070d81eede0973e_email-app-thumbnail-p-1600.png 1600w, ../images/0d6989ceb4a3b3575070d81eede0973e_email-app-thumbnail-p-2000.png 2000w, ../images/0d6989ceb4a3b3575070d81eede0973e_email-app-thumbnail-p-2600.png 2600w, ../images/0d6989ceb4a3b3575070d81eede0973e_email-app-thumbnail-p-3200.png 3200w, ../images/email-app-thumbnail.png 3616w" alt="email screens" class="image-100"></div>
+        <div class="project-card-copy">
+          <h1 class="header-5 color-dark">Email Web App</h1>
+          <p class="small-copy color-dark">Product UX/UI of an email channel web app for a CCaaS B2B startup</p>
+        </div>
+      </a>
+      <a href="../projects/agent-desktop-app.html" class="project-card color-dark w-inline-block">
+        <div class="project-card-image"><img sizes="(max-width: 3616px) 100vw, 3616px" srcset="../images/471d0c62175b26722b1cf3f56604b151_omnichannel-desktop-thumbnail-p-500.png 500w, ../images/471d0c62175b26722b1cf3f56604b151_omnichannel-desktop-thumbnail-p-800.png 800w, ../images/471d0c62175b26722b1cf3f56604b151_omnichannel-desktop-thumbnail-p-1080.png 1080w, ../images/471d0c62175b26722b1cf3f56604b151_omnichannel-desktop-thumbnail-p-1600.png 1600w, ../images/471d0c62175b26722b1cf3f56604b151_omnichannel-desktop-thumbnail-p-2000.png 2000w, ../images/omnichannel-desktop-thumbnail.png 3616w" alt="Dekstop screen" src="../images/omnichannel-desktop-thumbnail.png" class="image-100"></div>
+        <div class="project-card-copy">
+          <h1 class="header-5 color-dark">Agent Desktop App</h1>
+          <p class="small-copy color-dark">Product UX/UI of a multi-channel desktop app for a CCaaS B2B startup</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <a href="../index.html" class="wrapper-small-cta w-inline-block">
+    <p class="small-cta-button">View all projects</p>
+  </a>
+  <div data-w-id="00d151f0-5ed1-1c5d-9c41-c03f7f61c3c8" class="footer">
+    <div class="wrapper-footer">
+      <div class="wrapper-social">
+        <a href="https://www.linkedin.com/in/crystal-pham/" target="_blank" class="social-linkedin w-inline-block"></a>
+        <a href="https://dribbble.com/crystalpham" target="_blank" class="social-dribbble w-inline-block"></a>
+        <a href="https://codepen.io/shneakyshneaky/" target="_blank" class="social-codepen w-inline-block"></a>
+        <a href="https://github.com/shneakyshneaky" target="_blank" class="social-github w-inline-block"></a>
+      </div>
+      <a href="#top" class="wrapper-top-button w-inline-block">
+        <p class="primary-button-label">Back to top</p>
+      </a>
+    </div>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6894c2361cbad72f0702e8cf" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="../js/webflow.js" type="text/javascript"></script>
+</body>
+</html>
