@@ -768,6 +768,11 @@
   border-top-color: var(--light-purple-grey);
 }
 
+.capabilities-card.extra-margin {
+  margin-top: var(--_spacing---24);
+  margin-bottom: var(--_spacing---24);
+}
+
 .header-4 {
   margin-bottom: var(--_spacing---8);
   font-family: var(--_type---titles);
